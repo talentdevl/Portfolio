@@ -10,23 +10,24 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
   const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
   const filters = {
-    DESIGN: "Desing",
-    BRAND: "Brand",
-    PHOTOS: "Photos",
+    WEBSITE: "WebSite",
+    MOBILE: "Mobile",
+    DESKTOP: "Desktop",
+    DEVOPS: "DevOps",
   };
 
   const projectsData = [
     {
-      title: "Project Title 1",
+      title: "Web Application Development for Telus International",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+        "This project involved the development of a comprehensive web application for Telus International, a global leader in providing digital customer experience (CX) solutions. The objective was to enhance user experience and streamline the company's processes. The technology stack used for the project included React, Node.js, and Next.js.",
+      client: "Telus International",
+      technologies: "React.js, Node.js, Next.js",
       industry: "Art & Design",
       date: "July 16, 2019",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "https://www.telusinternational.com/",
+        link: "https://www.telusinternational.com/",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -35,19 +36,19 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-1.jpg",
+      thumbImage: "images/projects/Telus1.jpg",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/Telus2.jpg",
+        // "images/projects/project-5.jpg",
       ],
-      categories: [filters.BRAND],
+      categories: [filters.WEBSITE],
     },
     {
-      title: "Project Title 2",
+      title: "Homebuying Process Management Tool Development",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+        "Ruuster is a web-based tool designed to help users manage the homebuying process effectively. The inspiration behind this project was the founder's personal experience in homebuying, where he realized the need for a unified management platform. This realization led to the creation of Ruuster, aiming to aid users in purchasing the right home, at the right price, and at the right time. The website was developed using Node.js and React.js over a period of 7 months. The specific technologies utilized include:",
+      client: "Ruuster",
+      technologies: "React.js, Node.js, Experss.js, Redux, Redux-Thunk",
       industry: "Art & Design",
       date: "July 16, 2019",
       url: {
@@ -61,24 +62,24 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-2.jpg",
+      thumbImage: "images/projects/Ruuster1.jpg",
       sliderImages: [
-        "images/projects/project-2.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/Ruuster2.jpg",
+        // "images/projects/project-5.jpg",
       ],
-      categories: [filters.DESIGN],
+      categories: [filters.WEBSITE],
     },
     {
-      title: "Project Title 3",
+      title: "Performance Marine Engines and Parts Platform",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+        "The project involved providing technological assistance to Teague Custom Marine, a premier shop for high-performance marine engines and parts. The work included helping performance marine enthusiasts find top-of-the-line custom engine packages and aftermarket parts over a period of 5 years",
+      client: "Teague Custom Marine",
+      technologies: "React.js, Material UI, Firebase, Animation, Axio, Moment.js, Video React",
       industry: "Art & Design",
       date: "July 16, 2019",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "https://teaguecustommarine.com/",
+        link: "https://teaguecustommarine.com/",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -87,24 +88,24 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-3.jpg",
+      thumbImage: "images/projects/Teague2.jpg",
       sliderImages: [
-        "images/projects/project-3.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/Teague1.jpg",
+        // "images/projects/project-5.jpg",
       ],
-      categories: [filters.PHOTOS],
+      categories: [filters.WEBSITE],
     },
     {
-      title: "Project Title 4",
+      title: "Performance Marine Engines and Parts Platform",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+        "The project involved providing technological assistance to Teague Custom Marine, a premier shop for high-performance marine engines and parts. The work included helping performance marine enthusiasts find top-of-the-line custom engine packages and aftermarket parts over a period of 5 years.",
+      client: "Teague Custom Marine",
+      technologies: "React.js, Material UI, Firebase, Animation, Axios, Moment.js, Video React",
       industry: "Art & Design",
       date: "July 16, 2019",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "https://teaguecustommarine.com/",
+        link: "https://teaguecustommarine.com/",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -113,24 +114,24 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-4.jpg",
+      thumbImage: "images/projects/Teague2.jpg",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-4.jpg",
+        "images/projects/Teague1.jpg",
+        // "images/projects/project-5.jpg",
       ],
-      categories: [filters.BRAND, filters.PHOTOS],
+      categories: [filters.WEBSITE],
     },
     {
-      title: "Project Title 5",
+      title: "DevOps Support Managed Services",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
+        "Earthling Interactive, a company that designs, builds, and supports websites and web-based applications, sought to decommission their existing, complex Rancher environment and transition their clients to a more streamlined, lightweight, and accessible environment optimized for a multi-cloud environment.",
+      client: "Earthling Interactive",
+      technologies: "Amazon EKS, Helm",
+      // industry: "Art & Design",
       date: "July 16, 2019",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "https://earthlinginteractive.com/",
+        link: "https://earthlinginteractive.com/",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -139,24 +140,24 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-5.jpg",
+      thumbImage: "images/projects/Earthling1.jpeg",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/Earthling2.jpeg",
+        "images/projects/Earthling3.jpeg",
       ],
-      categories: [filters.DESIGN],
+      categories: [filters.DEVOPS],
     },
     {
-      title: "Project Title 6",
+      title: "Infrastructure Modernization",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+        "Site Impact, a data management platform, sought to modernize and scale-out its infrastructure. The aim was to architect a scalable infrastructure capable of handling their business operations effectively and efficiently.",
+      client: "Site Impact",
+      technologies: "GKE, BigQuery, Composer, Saraproc",
       industry: "Art & Design",
       date: "July 16, 2019",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "https://www.siteimpact.com/",
+        link: "https://www.siteimpact.com/",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -165,24 +166,23 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-6.jpg",
+      thumbImage: "images/projects/Site1.jpeg",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/Site2.jpeg",
       ],
-      categories: [filters.BRAND],
+      categories: [filters.DEVOPS],
     },
     {
-      title: "Project Title 7",
+      title: "Cloud Transformation",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+        "Aperian Global, an international consulting firm, engaged WALT Labs to assist in migrating their single content management system (CMS) to the Google Cloud Platform (GCP). Additionally, they wanted to scale their single-instance application into multiple instances to provide failover protection and high availability.",
+      client: "Aperian Global",
+      technologies: "GCP, Gluster, Load Balancing, GCP CloudSQL",
       industry: "Art & Design",
       date: "July 16, 2019",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "https://www.aperianglobal.com/",
+        link: "https://www.aperianglobal.com/",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -191,13 +191,74 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-7.jpg",
+      thumbImage: "images/projects/Aperian1.jpeg",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        // "images/projects/project-3.jpg",
+        // "images/projects/project-5.jpg",
       ],
-      categories: [filters.DESIGN, filters.PHOTOS],
+      categories: [filters.DEVOPS],
     },
+    {
+      title: "Sys Admin for Client Installation Support",
+      projectInfo:
+        "This project involves working with clients to deploy an on-premise client-server-AI solution. The task requires assisting clients with various checks and validations, such as TCP Port checks and database connection checks, as well as ensuring the correct functioning of the Kubernetes AI. The deployment of infrastructure is already 90% automated through a dashboard.",
+      client: "Office Automata",
+      technologies: "Windows Server, Microsoft SQL Server, Kubernetes, Newwork Administration",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "https://officeautomata.com/",
+        link: "https://officeautomata.com/",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/Office2.jpg",
+      sliderImages: [
+        "images/projects/Office1.jpg",
+        "images/projects/Office3.jpg",
+      ],
+      categories: [filters.DEVOPS, filters.DESKTOP],
+    }, 
+    {
+      title: "Centralized Corporate Information and Communication Application",
+      projectInfo:
+        "A cross-platform application was developed that is available for both iOS and Android devices. This application provides quick access to useful information for employees and also allows users to send requests to the company's internal systems to quickly resolve various issues. I acted as a Full Stack developer on this project and primarily focused on frontend development and API integration.",
+      client: "Blink",
+      technologies: "Flutter, Dart, Business Analysis, UI/UX design, Quality Assurance",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "https://joinblink.com",
+        link: "https://joinblink.com",
+      },
+      url1: {
+        name: "Google Play",
+        link: "https://play.google.com/store/apps/details?id=com.usekimono.android&hl=en_GB",
+      },
+      url2: {
+        name: "App Store",
+        link: "https://apps.apple.com/gb/app/blink-workplace-messaging/id1046583493",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/Blink1.jpg",
+      sliderImages: [
+        "images/projects/Blink3.jpg",
+        "images/projects/Blink4.jpg",
+        "images/projects/Blink2.jpg",
+      ],
+      categories: [filters.MOBILE],
+    },       
   ];
 
   // initialize an Isotope object with configs
@@ -289,7 +350,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                 projectsData.map((project, index) => (
                   <div
                     className={
-                      "col-sm-6 col-lg-4 filter-item " +
+                      "col-sm-6 col-lg-6 filter-item " +
                       project.categories.join(" ")
                     }
                     key={index}
@@ -350,7 +411,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                             <h5 className="text-white fw-400">
                               {project.title}
                             </h5>
-                            <span className="text-light">Category</span>
+                            <span className="text-light">{project.categories}</span>
                           </div>
                         </div>
 

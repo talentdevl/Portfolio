@@ -128,7 +128,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         </span>
                         {projectDetails?.technologies}
                       </li>
-                      <li>
+                      {/* <li>
                         <span
                           className={
                             "text-dark font-weight-600 me-2" +
@@ -138,7 +138,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           Industry:
                         </span>
                         {projectDetails?.industry}
-                      </li>
+                      </li> */}
                       {/* <li>
                         <span
                           className={
@@ -165,6 +165,22 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           rel="noopener noreferrer"
                         >
                           {projectDetails?.url?.name}
+                        </a>
+                        <br></br>
+                        <a
+                          href={projectDetails?.url1?.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {projectDetails?.url1?.name}
+                        </a>
+                        <br></br>
+                        <a
+                          href={projectDetails?.url2?.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {projectDetails?.url2?.name}
                         </a>
                       </li>
                     </ul>

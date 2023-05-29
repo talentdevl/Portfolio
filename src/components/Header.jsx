@@ -213,7 +213,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             <li className="social-icons-google">
                 <Tooltip text="Google" placement="top">
                   <a
-                    href="http://www.google.com/"
+                    href="mailto:David.Cathey.me@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -229,6 +229,17 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                     rel="noopener noreferrer"
                   >
                     <i className="fab fa-github" />
+                  </a>
+                </Tooltip>
+              </li>
+              <li className="social-icons-Calendar">
+                <Tooltip text="Calendar" placement="top">
+                  <a
+                    href="https://calendly.com/david-cathey"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa-solid fa-calendar-days"></i>
                   </a>
                 </Tooltip>
               </li>
