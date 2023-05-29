@@ -135,7 +135,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="fa-brands fa-linkedin fa-beat"></i>
+                    <i class="fa-brands fa-linkedin"></i>
                   </a>
                 </Tooltip>
               </li>
