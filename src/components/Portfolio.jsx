@@ -72,32 +72,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Performance Marine Engines and Parts Platform",
       projectInfo:
-        "The project involved providing technological assistance to Teague Custom Marine, a premier shop for high-performance marine engines and parts. The work included helping performance marine enthusiasts find top-of-the-line custom engine packages and aftermarket parts over a period of 5 years",
-      client: "Teague Custom Marine",
-      technologies: "React.js, Material UI, Firebase, Animation, Axio, Moment.js, Video React",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "https://teaguecustommarine.com/",
-        link: "https://teaguecustommarine.com/",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/Teague2.jpg",
-      sliderImages: [
-        "images/projects/Teague1.jpg",
-        // "images/projects/project-5.jpg",
-      ],
-      categories: [filters.WEBSITE],
-    },
-    {
-      title: "Performance Marine Engines and Parts Platform",
-      projectInfo:
         "The project involved providing technological assistance to Teague Custom Marine, a premier shop for high-performance marine engines and parts. The work included helping performance marine enthusiasts find top-of-the-line custom engine packages and aftermarket parts over a period of 5 years.",
       client: "Teague Custom Marine",
       technologies: "React.js, Material UI, Firebase, Animation, Axios, Moment.js, Video React",
