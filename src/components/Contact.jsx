@@ -101,13 +101,13 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
-              (832) 793 1422
+              (475) 222 3835
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-fax" />
               </span>
-              (518) 545 4496
+              (475) 222 3835
             </p>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
