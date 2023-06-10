@@ -131,7 +131,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-linkedin">
                 <Tooltip text="Linkedin" placement="top">
                   <a
-                    href="https://www.linkedin.com/in/david-cathey-68232a21b/"
+                    href="https://www.linkedin.com/in/david-cathey-78473121b/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
